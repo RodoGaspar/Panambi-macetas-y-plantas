@@ -1,0 +1,46 @@
+/*Contacto*/
+
+.contacto__titulos {
+    font-family: $arial;
+}
+
+.contacto__imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+        height: 40rem;
+    }
+}
+
+.consulta {
+    color: $lila;
+    font-family: $arial;
+    font-size: 1.5rem;
+    margin: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    .formulario {
+        background-color: $amarillo;
+        margin: 1rem;
+        padding: 3rem;
+        width: 95%;
+        .formulario__mensaje {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        .formulario__check {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+@each $client in nombre, apellido, mail, mensaje, check {
+    .formulario__#{$client} {
+        margin: 1rem;
+    }    
+}

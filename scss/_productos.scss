@@ -1,0 +1,110 @@
+/*Productos*/
+
+.productos__titl {
+    font-family: $arial;
+}
+
+.productos__subtitl {
+    font-family: $arial;
+    color: $amarillo;
+    background-color: $lila;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 3rem 0rem;
+}
+
+.productos__descrip {
+    color: $amarillo;
+    background-color: $lila;
+    font-family: $arial;
+    font-size: 1.5rem;
+}
+
+.productos__card {
+    border: 0.1rem solid $verdecito;
+    background-color: $lila;
+    background: linear-gradient( to top $violeta 0%, $lila 100% );
+    .productos__subtitl--card {
+        font-family: $arial;
+        text-align: center;
+        color: $amarillo;
+        background-color: $lila;
+        text-align: left;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .productos__descrip--card {
+        color: $amarillo;
+        font-family: $arial;
+        font-size: 1.5rem;
+    } 
+}
+
+.productos__subtitl--medidas {
+    text-align: center;
+    color: $amarillo;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.accordion__titl {
+    font-family: $arial;
+    color: $amarillo;
+    background-color: $violeta;
+    background: linear-gradient(to left, $violeta 0%, $lila 100%);
+    border: 0.1rem solid $lila;
+    button {
+        font-family: $arial;
+        color: $amarillo;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+.accordion__table {
+    font-family: $arial;
+    font-size: 1.5rem;
+}
+
+.productos__otros {
+    color: $verdecito;
+    background-color: $lila;
+    font-family: $arial;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 3rem;
+}
+
+.productos__contacto--style {
+    text-decoration: none;
+    color: $verdecito;
+}
+
+.productos__card--plantas {
+    border: 1px solid $verdecito;
+    background-color: #3E8F13;
+    background: linear-gradient(to top, $verdote 0%, $verde 100%);
+    margin-bottom: 2rem;
+    padding: 2rem;
+    .productos__subtitl--card {
+        font-family: $arial;
+        text-align: center;
+        color: $amarillo;
+        background-color: $lila;
+        text-align: left;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .productos__descrip--card {
+        color: $amarillo;
+        font-family: $arial;
+        font-size: 1.5rem;
+    } 
+    .card__boton {
+        color: $amarillo;
+        background-color: $lila;
+        font-size: 1.3rem;
+    }
+}

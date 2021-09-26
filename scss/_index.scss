@@ -1,0 +1,49 @@
+/*Index*/
+
+h1 {
+    color: $verdecito;
+    background: radial-gradient(circle, $verdote 0%, $verdecito 100%);
+    font-family: $cursiva;
+    text-align: center;
+}
+
+h2 {
+    color: $amarillo;
+    text-align: center;
+    font-family: $cursiva;
+    margin: 4rem;
+}
+
+h3 {
+    color: $amarillo;
+    text-align: center;
+    font-family: $cursiva;
+}
+
+$medida: (
+    h1: 5rem,
+    h2: 4rem,
+    h3: 2.5rem,
+);
+
+@each $titulo-medida, $ftmedida in $medida {
+    #{$titulo-medida}{
+        font-size: $ftmedida;
+    }
+}
+
+.section__postslider {
+    background-image: url(/Imagenes/Vincent_van_Gogh_-_Grass_and_butterflies.jpg);
+    background-position: center, bottom;
+    background-size: 100%;
+    background-attachment: fixed;
+    .section__postslider--presenacion {
+        color: $verdecito;
+        background-color: $lila;
+        font-family: $arial;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 1.6;
+        letter-spacing: 0.2rem;        
+    }
+}
