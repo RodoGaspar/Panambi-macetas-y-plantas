@@ -10,14 +10,9 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    .bg-cabezon {
-        background-size: 200%;
-        .logopanambi {
-            height: 18rem;
-        }
-    }
 
-    footer {
+
+    /*footer {
         background-size: 200%;
         color: #3E8F13;
         font-size: 1.3rem;
@@ -25,10 +20,10 @@
             height: 16rem;
         }
         
-    }
+    }*/
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
     .bg-cabezon {
         background-size: cover;
         div a .logopanambi {
@@ -53,9 +48,9 @@
     footer iframe {
         display: none;
     }
-}
+}*/
 
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
     .bg-cabezon  {
         background-size: cover;
         div a .logopanambi {
@@ -112,4 +107,4 @@
         font-size: 1.3rem;
 
     }
-}
+}*/

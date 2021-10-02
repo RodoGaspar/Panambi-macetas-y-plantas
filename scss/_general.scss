@@ -46,22 +46,25 @@ footer {
         height: 17rem;
         border-radius: 50%;
     }
+    .mapita {
+        margin: 1rem;
+    }
     section {
         background-color: $verde;
         display: inline-block;
-        margin: 1rem;
-        padding: 1.5rem 1.5rem;
+        margin: 2rem;
+        padding: 1.5rem 1rem;
         p {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
         ul li {
             list-style: none;
             img {
-                width: 3rem;
+                width: 10%;
             }
             p {
                 display: inline-block;
-                font-size: 1.5rem;
+                font-size: 2rem;
             }
         }
     }
