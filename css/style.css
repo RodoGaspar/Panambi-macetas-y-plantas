@@ -334,30 +334,19 @@ h3 {
 }
 
 /*Nosotros*/
-.aboutUs__uno {
-  display: flex;
-  align-items: center;
+.aboutUs__uno div img {
+  width: 90%;
+  margin: 2rem 2rem 2rem 0rem;
 }
 
-.aboutUs__uno img {
-  width: 35vw;
-  margin: 2rem;
-}
-
-.aboutUs__uno .aboutUs__img--round {
+.aboutUs__img--round {
   width: 30vw;
   border-radius: 50%;
 }
 
-.aboutUs__dos {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-}
-
 .aboutUs__dos img {
-  width: 35vw;
-  margin: 2rem;
+  width: 90%;
+  margin: 2rem 0rem 2rem 2rem;
 }
 
 .aboutUs__descrip {
