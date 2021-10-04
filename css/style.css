@@ -360,6 +360,11 @@ h3 {
   padding: 2rem;
 }
 
+.aboutUs__descrip a {
+  text-decoration: none;
+  color: #fffd91;
+}
+
 /*Contacto*/
 .contacto__titulos {
   font-family: "Open Sans", sans-serif;
