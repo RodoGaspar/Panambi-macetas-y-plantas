@@ -365,63 +365,39 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
-.contacto__imagenes {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.contacto__imagenes img {
-  height: 40rem;
+.contacto__imagenes div img {
+  width: 90%;
 }
 
 .consulta {
   color: #8F6B8f;
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
-  margin: 1rem 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  align-items: center;
+  margin: 1rem 0rem;
+  background-color: #fffd91;
+}
+
+.consulta p {
+  text-align: center;
 }
 
 .consulta .formulario {
-  background-color: #fffd91;
-  margin: 1rem;
-  padding: 3rem;
-  width: 95%;
+  margin: 1rem 0rem;
+  padding: 3rem 0rem;
+  width: 50%;
 }
 
-.consulta .formulario .formulario__mensaje {
+.consulta .formulario .formulario__nombre, .consulta .formulario .formulario__apellido, .consulta .formulario .formulario__mail, .consulta .formulario .formulario__mensaje {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 90%;
 }
 
 .consulta .formulario .formulario__check {
   display: flex;
   align-items: center;
-}
-
-.formulario__nombre {
-  margin: 1rem;
-}
-
-.formulario__apellido {
-  margin: 1rem;
-}
-
-.formulario__mail {
-  margin: 1rem;
-}
-
-.formulario__mensaje {
-  margin: 1rem;
-}
-
-.formulario__check {
-  margin: 1rem;
 }
 
 .error div h1 {

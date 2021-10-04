@@ -4,33 +4,29 @@
     font-family: $arial;
 }
 
-.contacto__imagenes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    img {
-        height: 40rem;
+.contacto__imagenes div img {
+        width: 90%;
     }
-}
 
 .consulta {
     color: $lila;
     font-family: $arial;
     font-size: 1.5rem;
-    margin: 1rem 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
+    margin: 1rem 0rem;
+    background-color: $amarillo;
+    p {
+        text-align: center;
+    }
     .formulario {
-        background-color: $amarillo;
-        margin: 1rem;
-        padding: 3rem;
-        width: 95%;
-        .formulario__mensaje {
+        margin: 1rem 0rem;
+        padding: 3rem 0rem;
+        width: 50%;
+        .formulario__nombre, .formulario__apellido, .formulario__mail, .formulario__mensaje {
             display: flex;
+            flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
+            width: 90%;
         }
         .formulario__check {
             display: flex;
@@ -39,8 +35,3 @@
     }
 }
 
-@each $client in nombre, apellido, mail, mensaje, check {
-    .formulario__#{$client} {
-        margin: 1rem;
-    }    
-}

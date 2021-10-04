@@ -47,43 +47,47 @@
           </div>
         </div>
     </nav>
-    <section class="contacto container">
-        <h1 class="contacto__titulos">Contactanos</h1>
-        <div class="contacto__imagenes row">
-            <img class="col-lg-6 col-md-10" src="../imagenes/abril_ani.gif" alt="Maceta de Mujer en otoño">
-            <img class="col-lg-6 col-md-10" src="../imagenes/enanos.gif" alt=" Maceta de Enanos">
-        </div>
-        <fieldset class="consulta">
-            <legend>
+    <section class="contacto container-fluid">
+        <div class="row">
+            <h1 class="contacto__titulos">Contactanos</h1>
+            <div class="contacto__imagenes d-flex flex-wrap justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-10 col-sm-12">
+                    <img src="../imagenes/dosMacetasconplantas.jpg" alt="Dos Macetas con Plantas">
+                </div>
+                <div class="col-lg-6 col-md-10 col-sm-12">
+                    <img src="../imagenes/tresMacetasconPlantas.jpg" alt=" Dos Macetas con Plantas">
+                </div>
+            </div>
+            <section class="consulta col-12 d-flex flex-column justify-content-center align-items-center">
                 <p>Podés enviarnos tu consulta, comentario o sugerencia por el siguiente medio:</p>
-            </legend>
-            <form action="" class="formulario">
-                <div class="formulario__nombre">
-                    <label for="nombre">Nombre:</label>
-                    <input required name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre">
-                </div>
-                <div class="formulario__apellido">
-                    <label for="apellido">Apellido:</label>
-                    <input required name="apellido" id="apellido" type="text" placeholder="Escribe tu apellido">
-                </div>
-                <div class="formulario__mail">
-                    <label for="e-mail">E-mail:</label>
-                    <input required type="mail" name="e-mail" id="e-mail">
-                </div>
-                <div class="formulario__mensaje">
-                    <label class="tuTexto" for="consulta">Dejanos tu consulta: </label>
-                    <textarea name="consulta" id="consulta" cols="60" rows="5" maxlength="420"></textarea>
-                </div>
-                <div class="formulario__check">
-                    <div class="vosQueres">¿Querés suscribirte a nuestro newsletter?</div>
-                    <input type="checkbox" name="acepta" value="1">
-                </div>
-                <div>
-                    <input type="reset" value="limpiar">
-                    <input type="submit" value="enviar">
-                </div>
-            </form>
-        </fieldset>
+                <form action="" class="formulario">
+                    <div class="formulario__nombre">
+                        <label for="nombre">Nombre:</label>
+                        <input required name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre">
+                    </div>
+                    <div class="formulario__apellido">
+                        <label for="apellido">Apellido:</label>
+                        <input required name="apellido" id="apellido" type="text" placeholder="Escribe tu apellido">
+                    </div>
+                    <div class="formulario__mail">
+                        <label for="e-mail">E-mail:</label>
+                        <input required type="mail" name="e-mail" id="e-mail">
+                    </div>
+                    <div class="formulario__mensaje">
+                        <label class="tuTexto" for="consulta">Dejanos tu consulta: </label>
+                        <textarea name="consulta" id="consulta" cols="30" rows="5" maxlength="420"></textarea>
+                    </div>
+                    <div class="formulario__check">
+                        <div class="vosQueres">¿Querés suscribirte a nuestro newsletter?</div>
+                        <input type="checkbox" name="acepta" value="1">
+                    </div>
+                    <div>
+                        <input type="reset" value="limpiar">
+                        <input type="submit" value="enviar">
+                    </div>
+                </form>
+            </section>
+        </div>
     </section>
     <footer class="container-fluid">
         <div class="row d-flex justify-content-around align-items-center">
