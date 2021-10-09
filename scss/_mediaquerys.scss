@@ -1,6 +1,6 @@
 @media only screen and (max-width: 990px) {
     .bg-cabezon {
-        background-size: 200%;
+        background-size: 100%;
         .logopanambi {
             height: 18rem;
         }
@@ -46,6 +46,7 @@
 @media only screen and (max-width: 480px) {
     .bg-cabezon  {
         background-size: cover;
+        height: 45vh;
         div a .logopanambi {
             height: 10rem;
         }
